@@ -19,8 +19,10 @@ bash run.sh
 
 The diagrams will be rendered within the `./app/output/` directory.
 
-![](./app/output/web_services.png)
-![](./app/output/stateful_architecture.png)
+![me](https://github.com/kavisek/demo-python-diagrams/blob/main/app/output/cluster_web_services.png)
+![me](https://github.com/kavisek/demo-python-diagrams/blob/main/app/output/message_collecting.png)
+![me](https://github.com/kavisek/demo-python-diagrams/blob/main/app/output/stateful_architecture.png)
+
 
 ## References
 
