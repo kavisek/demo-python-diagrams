@@ -137,6 +137,6 @@ dmypy.json
 **/*.xlsx
 
 # Custom Files
-**/output/*
-!**/output/.gitkee
+!**/output/*
+!**/output/.gitkeep
 cloud_sql_proxy
