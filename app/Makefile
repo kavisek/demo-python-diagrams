@@ -2,7 +2,7 @@
 
 # POETRY COMMANDS
 
-.PHONY: pinstall requirements black pytest black
+.PHONY: pinstall pbuild requirements black pytest black
 
 pinstall:
 	poetry install
@@ -20,7 +20,8 @@ pytest:
 	poetry run pytest --cov=./tests --black -rAP 
 
 black:
-	isort
+	isort .
+	black .
 
 
 # DOCKER / CONTAINER REGISTRY COMMANDS

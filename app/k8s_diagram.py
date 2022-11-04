@@ -1,8 +1,8 @@
+from config import OUTPUT_DIRECTORY
 from diagrams import Cluster, Diagram
 from diagrams.k8s.compute import Pod, StatefulSet
 from diagrams.k8s.network import Service
 from diagrams.k8s.storage import PV, PVC, StorageClass
-from config import OUTPUT_DIRECTORY
 
 with Diagram(
     "Stateful Architecture",
