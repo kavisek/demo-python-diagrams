@@ -7,12 +7,13 @@ Writing diagrams as code with Python. Useful, if you are faster at writing pytho
 ## Setup
 
 ```bash
+# Install dependencies
 brew install graphviz
 ```
 
 
 ```bash
-# Run every python script.
+# Run every python script. ~1 python script for each diagram
 bash run.sh
 ```
 
