@@ -19,6 +19,9 @@ bash run.sh
 
 The diagrams will be rendered within the `./app/output/` directory.
 
+![](./app/output/web_services.png)
+![](./app/output/stateful_architecture.png)
+
 ## References
 
 - https://www.digitalocean.com/community/tutorials/how-to-create-diagrams-in-python-with-diagram-as-code
